@@ -25,10 +25,13 @@ gem 'jquery-rails'
 group :development do
 	gem 'sqlite3'
 	gem 'rspec-rails'
+	
 end
 
 group :test do
+	gem 'sqlite3'
 	gem 'rspec-rails'
+	gem 'capybara', '1.1.2'
 end
 
 # To use ActiveModel has_secure_password
