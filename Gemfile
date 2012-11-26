@@ -28,6 +28,7 @@ group :development do
 	gem 'sqlite3'
 	gem 'rspec-rails'
 	gem 'annotate', '2.5.0'
+	gem 'factory_girl_rails', '4.1.0'
 	
 end
 
@@ -35,6 +36,7 @@ group :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
 	gem 'capybara', '1.1.2'
+	gem 'factory_girl_rails', '4.1.0'
 end
 
 # To use ActiveModel has_secure_password
